@@ -35,7 +35,7 @@ public class HotelService {
         return hotel;
     }
 
-    public List<Hotel> findAll(){
+    public Iterable<Hotel> findAll(){
         return hotelRepo.findAll();
     }
     public Hotel findById(Long id){

@@ -18,6 +18,7 @@ public class Room {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int roomNum;
+
     private String bedType;
     private double rate;
     private String occupantName;

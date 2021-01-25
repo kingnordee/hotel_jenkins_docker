@@ -15,9 +15,9 @@ class HotelrestapiApplicationTests {
     @Autowired
     HotelService hotelService;
 
-    @Test
-    void testHotel(){
-        hotelService.createHotel("DataJPA", "IntelliJ");
-    }
+//    @Test
+//    void testHotel(){
+//        hotelService.createHotel("DataJPA", "IntelliJ");
+//    }
 
 }
